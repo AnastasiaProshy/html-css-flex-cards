@@ -22,11 +22,13 @@ body {
 
 .card {
     display: flex;
-    width: 350px;
+    width: calc(100% / 3 - 30px);
     height: 100px;
     background-color: #0F0E17;
     box-shadow: 0 0 8px black;
     color: white;
+    margin: 15px;
+
 }
 
 .img {
@@ -48,7 +50,7 @@ body {
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 header {
